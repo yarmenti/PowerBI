@@ -1,0 +1,81 @@
+﻿Voici la liste des fichiers associés à chacun des jeux de données concernant le chiffre du commerce extérieur.
+
+
+Statistiques Nationales du Commerce Extérieur - (Import ou Export)
+==================================================================
+
+NATIONAL_NC8PAYSE.txt : Jeu de données principal pour l'export.
+NATIONAL_NC8PAYSI.txt : Jeu de données principal pour l'import.
+
+Description-des-jeux-de-donnees.pdf : Fiche descriptive permettant d'interpréter le jeu de données Statistiques Nationales du Commerce Extérieur - Import et Export.
+
+
+NC8_ETALAB.txt
+--------------
+
+Ce fichier liste les associations entre un code NC8 et son libellé pour la période couverte par le jeu de données. 
+
+Format de fichier: UTF-8 sans BOM, champs séparés par le caractère ; 
+Structure du fichier : Code; Libellé; Code USUP; Date de début de validité; Date de fin de validité
+Exemple : 01012100;Chevaux reproducteurs de race pure;23;201301;999912
+
+La date 999912 indique que l'association a cours au moment où le fichier est mis en ligne. 
+
+Remarque : Ce fichier possède un historique des NC8 pour les années 2013 et 2014.
+
+
+PAYS.txt
+--------
+
+Ce fichier liste les associations entre un code pays et son libellé et la date de validité de cette association. 
+Cette nomenclature est extraite du règlement CE 1833/2006. 
+Format de fichier : UTF-8 sans BOM, champs séparés par le caractère ; 
+Structure du fichier : Code; Libellé; Date de début de validité; Date de fin de validité. 
+Exemple : AL;Albanie;197601;999912 
+Une date de 999912 indique que l'association a cours au moment de la mise en ligne de cette annexe.
+
+USUP.txt
+--------
+
+Ce fichier liste les associations entre un code USUP (Unité supplémentaire) et son libellé. 
+Ces codes sont utilisés dans l'annexe NC8_ETALAB.txt. 
+Format de fichier : UTF-8 sans BOM, champs séparés par le caractère ; 
+Structure du fichier : Code; Libellé; Date de début; Date de fin 
+Exemple : 00;Pas d'unités supplémentaires.;201101;999912 
+La date 999912 indique que l'association a cours lors de la mise en ligne de cette annexe.
+
+
+Statistiques Régionales et Départementales du Commerce Extérieur - (Import ou Export)
+=====================================================================================
+
+REGIONAL_CPF4PAYSE.txt : Jeu de données principal pour l'export.
+REGIONAL_CPF4PAYSI.txt : Jeu de données principal pour l'import.
+
+Description-des-jeux-de-donnees.pdf : Fiche descriptive permettant d'interpréter le jeu de données Statistiques Régionales et Départementales du Commerce Extérieur - Import et Export.
+
+
+CPF4.txt
+--------
+
+Ce fichier liste les associations entre un code CPF4 et son libellé et la date de validité de cette association. 
+Cette nomenclature est gérée par l'INSEE. 
+Format de fichier : UTF-8 sans BOM, champs séparés par le caractère ; 
+Structure du fichier : Code; Libellé; Date de début de validité; Date de fin de validité. 
+Exemple : 0111;Céréales (à l'exclusion du riz), légumineuses et oléagineux;201101;999912 
+La date 999912 indique que l'association a cours au moment de la mise en ligne de cette annexe. 
+
+
+DEPT_REG.txt
+-------------------
+
+Ce fichier liste les associations entre un code département, son libellé, le code région d'appartenance et son libellé.
+Format de fichier : UTF-8 sans BOM, champs séparés par le caractère ; 
+Structure du fichier : Code Département;Libellé Département; Code région; Libellé région; Date de début de validité; Date de fin de validité
+Exemple : 01;Ain;19;Rhône-Alpes
+
+Remarque: il remplace l'ancien fichier DEPARTEMENT.txt.
+
+PAYS.txt
+--------
+
+Ce fichier est identique au fichier PAYS.txt fourni avec les jeux de données Statistiques Nationales du Commere Extérieur.

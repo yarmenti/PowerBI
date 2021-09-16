@@ -1,0 +1,32 @@
+﻿USUPNum;LibUSUP
+00;Pas d'unités supplémentaires;190001;999912
+02;Nombre de carats (1 carat métrique = 2 x 10-4 kg);201101;999912
+03;Cent pièces;201101;999912
+04;Capacité de charge utile en tonnes métriques;201101;999912
+05;Gramme;201101;999912
+06;Gramme isotopes fissiles;201101;999912
+07;Nombre d'éléments;201101;999912
+08;Kilogramme de matière sèche à 90 %;201101;999912
+09;Kilogramme d'oxyde de potassium;201101;999912
+10;Kilogramme d'hydroxyde de potassium (potasse caustique);201101;999912
+11;Kilogramme d'azote;201101;999912
+12;Kilogramme d'hydroxyde de sodium (soude caustique);201101;999912
+13;Kilogramme de pentaoxyde de diphosphore;201101;999912
+14;Kilogramme d'uranium;201101;999912
+15;Mille kilowattheures;201101;999912
+16;Litre;201101;999912
+17;Litre d'alcool pur (100 %);201101;999912
+18;Mètre;201101;999912
+19;Mètre carré;201101;999912
+20;Mètre cube;201101;999912
+21;Mille mètres cubes;201101;999912
+22;Mille pièces;201101;999912
+23;Nombre de pièces;201101;999912
+24;Nombre de paires;201101;999912
+28;Kilogramme poids net égoutté;201101;999912
+32;Kilogramme de peroxyde d'hydrogène;201101;999912
+34;Térajoule (pouvoir calorifique supérieur);201101;999912
+35;Mille litres;201101;999912
+37;Kilogramme de méthylamines;201101;999912
+42;Jauge brute;201101;201212
+43;Kilogramme de chlorure de choline;201101;201212
